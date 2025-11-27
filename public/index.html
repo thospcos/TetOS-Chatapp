@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>TetOS Chat</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TetOS Chat</h1>
+      <main id="chatWindow"></main>
+
+      <form id="chatForm">
+        <input id="nameInput" placeholder="Your name" />
+        <input id="msgInput" placeholder="Type a message..." autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <script src="/socket.io/T.js"></script>
+    <script src="/chat.js"></script>
+  </body>
+</html>
